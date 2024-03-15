@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.web {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  font-family: Poppins;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  max-width: 100%;
+}
+
+.nav{
+  display: grid;
+  
+}
+
+.nav .list{
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.nav li {
+ position: relative;
+  list-style: none;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-right: 25px;
+  transition: 1s;
+
+  
+}
+
+.list li a {
+  text-decoration: none;
+  color: whitesmoke;
+  
+}
+
+.nav li a:hover{
+  text-decoration: line-through;
+}
+
+
+.clicks{
+  position: relative;
+  top: -10%;
+ 
+  text-align: center;
+  
+}
+
+
+
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+.main{
+  
+  max-width: 100vh;
+  position: absolute;
+  top: 10%;
+  left: 50px;
+  text-align: left;
+  
+  padding: 20px;
+}
+.main p{
+  padding: 0;
+  margin: 0;
+ text-align: justify;
+}
+
+.hi,.iam{
+  color: whitesmoke;
+  line-height: 1;
+  font-size: 50px;
+  mix-blend-mode: exclusion;
+}
+
+.tech{
+  position: absolute;
+  left: 20px;
+  top: -1%;
+  font-weight: bold;
+  color: azure;
+  letter-spacing: 1rem;
+}
+
+.renzy{
+  
+  font-size: 100px;
+  color: transparent;
+  font-weight: bolder;
+  -webkit-text-stroke: .01px wheat;
+  line-height: 1.2;
+ 
+  
+}
+
+.aboutme{
+  color: whitesmoke;
+  line-height: 1.5;
+}
+
+.click{
+  position: relative;
+  justify-content: center;
+  border-color: white;
+  background-color: transparent;
+  color: whitesmoke;
+  border-style: solid;
+  padding: 8px;
+  margin-top: 25px;
+  left: 35%;
+  border-radius: 20px;
+  transition: 1s;
+  font-weight: bold;
+}
+
+.click:hover{
+  background-color: wheat;
+  color: black;
+  font-weight: bold;
+  padding-left: 12px;
+  padding-right: 12px;
+
+}

@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.web {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  font-family: Poppins;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tech{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  max-width: 100%;
+}
+
+.nav{
+  display: grid;
+  
+}
+
+.nav .list{
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.nav li {
+ position: relative;
+  list-style: none;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-right: 25px;
+  transition: 1s;
+
+  
+}
+
+.list li a {
+  text-decoration: none;
+  color: whitesmoke;
+  
+}
+
+.nav li a:hover{
+  text-decoration: line-through;
+}
