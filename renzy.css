@@ -148,7 +148,7 @@ footer{
 
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .nav .list{
     position: absolute;
     top: 5%;
@@ -156,7 +156,7 @@ footer{
     }
 
     .main{
-      left: 10px;
+      left: 0px;
     }
 
     .click{
@@ -169,5 +169,22 @@ footer{
       right: 0;
       max-height: 100vh;
       
+      
     }
+
+    .tech{
+      top: -3px;
+      left: 22%;
+    }
+
+    
+}
+
+@media (max-height:932px){
+  
+footer{
+  bottom: -50%;
+
+}
+
 }
