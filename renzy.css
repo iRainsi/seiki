@@ -15,27 +15,31 @@ body {
 }
 
 video {
-  position: fixed;
+  position: absolute;
   z-index: -2;
-  top: 0;
-  right: 0;
-  
-  
+ height: 100vh;
+ width: 100%;
+ left: 0;
+ right: 0;
+ object-fit: cover;
+
+
+
 }
 
-.nav{
+.nav {
   display: grid;
-  
+
 }
 
-.nav .list{
-position: absolute;
-top: 10px;
-right: 10px;
+.nav .list {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .nav li {
- position: relative;
+  position: relative;
   list-style: none;
   display: inline-block;
   color: whitesmoke;
@@ -43,32 +47,32 @@ right: 10px;
   margin-right: 25px;
   transition: 1s;
 
-  
+
 }
 
 .list li a {
   text-decoration: none;
   color: whitesmoke;
-  
+
 }
 
-.nav li a:hover{
+.nav li a:hover {
   text-decoration: line-through;
 }
 
 
-.clicks{
+.clicks {
   position: relative;
   top: -10%;
- 
+
   text-align: center;
-  
+
 }
 
 
 
 
-footer{
+footer {
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -76,30 +80,32 @@ footer{
   font-size: 10px;
 }
 
-.main{
-  
+.main {
+
   max-width: 100vh;
   position: absolute;
   top: 10%;
   left: 50px;
   text-align: left;
-  
+
   padding: 20px;
 }
-.main p{
+
+.main p {
   padding: 0;
   margin: 0;
- text-align: justify;
+  text-align: justify;
 }
 
-.hi,.iam{
+.hi,
+.iam {
   color: whitesmoke;
   line-height: 1;
   font-size: 50px;
   mix-blend-mode: exclusion;
 }
 
-.tech{
+.tech {
   position: absolute;
   left: 20px;
   top: -1%;
@@ -108,23 +114,23 @@ footer{
   letter-spacing: 1rem;
 }
 
-.renzy{
-  
+.renzy {
+
   font-size: 100px;
   color: transparent;
   font-weight: bolder;
   -webkit-text-stroke: .01px wheat;
   line-height: 1.2;
- 
-  
+
+
 }
 
-.aboutme{
+.aboutme {
   color: whitesmoke;
   line-height: 1.5;
 }
 
-.click{
+.click {
   position: relative;
   justify-content: center;
   border-color: white;
@@ -139,7 +145,7 @@ footer{
   font-weight: bold;
 }
 
-.click:hover{
+.click:hover {
   background-color: wheat;
   color: black;
   font-weight: bold;
@@ -148,43 +154,35 @@ footer{
 
 }
 
-@media (max-width: 500px){
-  .nav .list{
+@media (max-width: 500px) {
+  .nav .list {
     position: absolute;
     top: 5%;
     right: 15%;
-    }
+  }
 
-    .main{
-      left: 0px;
-    }
+  .main {
+    left: 0px;
+  }
 
-    .click{
-      left: 25%;
-    }
-    video {
-      position: fixed;
-      z-index: -2;
-      top: 0;
-      right: 0;
-      max-height: 100vh;
-      
-      
-    }
+  .click {
+    left: 25%;
+  }
 
-    .tech{
-      top: -3px;
-      left: 22%;
-    }
+  video {
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    right: 0;
+    max-height: 100vh;
 
-    
-}
 
-@media (max-height:932px){
-  
-footer{
-  bottom: -50%;
+  }
 
-}
+  .tech {
+    top: -3px;
+    left: 22%;
+  }
+
 
 }
