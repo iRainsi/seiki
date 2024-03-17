@@ -159,10 +159,12 @@ footer {
     position: absolute;
     top: 5%;
     right: 15%;
+
   }
 
   .main {
     left: 0px;
+    
   }
 
   .click {
@@ -186,5 +188,3 @@ footer {
 
 
 }
-
-
